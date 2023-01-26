@@ -1,6 +1,5 @@
 .box{
     width: 100%;
-    
     background-color: #ECF8F6;
     margin: auto;
     color: #000000;;
@@ -10,7 +9,7 @@
     border-radius: 20px;
     position: relative;
     border: #ffffff solid 4px;
-
+    margin-top: 50px;
 }
 .box p h1{
     font-size: 40px;

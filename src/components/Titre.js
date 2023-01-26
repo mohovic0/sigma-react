@@ -9,9 +9,7 @@ export default function Titre(props) {
         <p>
             <h1>{props.niveau}</h1>
             <h4><Link to='/'>Home</Link>/ <Link to={props.pth}>{props.niveau}</Link></h4>
-        </p>
-       
-        
+        </p>    
     </div>
   )
 }

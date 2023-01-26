@@ -1,0 +1,109 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Georgia, serif;
+
+}
+.navbar-brand img {
+  width: 140px;
+  height: 30px;
+}
+.navbar {
+  background-color: #1f3a93;
+  
+}
+
+.dropdown-item:hover{
+  background-color: rgb(87, 84, 84);
+}
+
+
+.nav-item:hover{
+  background-color: rgb(44, 123, 196);
+}
+
+.nav-link:hover {
+  color: lightgrey !important;
+}
+
+.nav-link {
+  color: white !important;
+  font-size: 16px;
+  
+}
+
+.navbar-nav > li > .dropdown-menu a {
+  color: #ffffff;
+  font-size: 15px;
+  
+}
+.navbar-nav > li .active {
+  font-weight: bold;
+  text-decoration: underline;
+  background-color: transparent;
+  
+}
+@media (max-width: 992px) {
+  .nav-link {
+    text-align: center;
+  }
+}
+
+.dropdown-menu {
+  font-weight: bold;
+  font-size: 12px;
+  background-color: rgb(44, 123, 196);
+  
+}
+#myBtnRecherche {
+  color: white;
+  font-family: Georgia, serif;
+  border: 1px solid white;
+  font-weight: bold;
+  text-decoration: underline;
+}
+#myBtnRecherche:hover {
+  color: lightgray !important;
+  background-color: transparent;
+  border: 1px solid lightgray !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+#mybtn {
+  border: 2px solid white;
+  background-color: transparent;
+}
+.mytoggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+#mybtn.active.focus,
+#mybtn.active:focus,
+#mybtn.focus,
+#mybtn:active.focus,
+#mybtn:active:focus,
+#mybtn:focus {
+  outline: solid white 1px;
+  box-shadow: none;
+}
+
+.header-inner{
+  font-weight: bold;
+  text-decoration: underline;
+  background-color: transparent;
+  font-family: Georgia, serif;
+  margin-top: -8px;
+  margin-bottom: -6px;
+}
+
+input[type=text] {
+  color: white;
+  font-family: Georgia, serif;
+  border: 1px solid white;
+  font-weight: bold;
+  text-decoration: underline;
+}
+

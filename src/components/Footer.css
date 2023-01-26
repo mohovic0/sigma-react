@@ -1,0 +1,26 @@
+
+.foot{
+    background: #1f3a93;
+    font-family: Georgia, serif;
+    position: relative;
+    margin-bottom: 0%;
+}
+.parag {
+    font-weight: bold;
+    color: white !important;
+    font-size: 12px;
+}
+
+.parag a{
+    font-weight: bold;
+    color: white !important;
+    font-size: 12px;
+}
+
+.men{
+    border-right: solid 1px;
+    
+}
+.men:hover{
+    background-color: rgb(44, 123, 196);
+}

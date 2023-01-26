@@ -1,0 +1,105 @@
+
+.hi{
+  padding: 30px;
+  background-color: #ECF8F6;
+  /*display: flex;*/
+  flex-wrap: wrap;
+  justify-content: space-around;
+  color: black;
+  margin: auto;
+  border-radius: 20px;
+  counter-reset: li-counter;
+  
+}
+
+
+.card {
+    position: relative;
+    /*display: flex;*/
+    background-color: #F1E8B8;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    /*min-width: 0;
+    max-width: 350px;*/
+    /*width: 350px;
+    height: 200px;*/
+    margin:  auto;
+    font-weight: bolder;
+    font-family: Georgia, serif;
+    font-size: larger;
+    text-align: center;
+    outline : black solid 2px ;
+    cursor: grab;
+  }
+  .card-body {
+    flex: 1 1 auto;
+    padding: 2rem 1rem;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 2px;
+    cursor: grab;
+  }
+
+  .card-footer {
+    color: black;
+    /*background-color: #6cd6cc;*/
+    border: 1px black solid;
+    border-top: 1px solid rgba(0, 0, 0, 0.125);
+    padding: 0px;
+    
+  }
+.card-divider1{
+  width: 100%;
+  cursor: grab;
+  background-color: #D6955B;
+  border-right: #000000 1px solid;
+  border-left: #000000 1px solid;
+}
+.card-divider2{
+  width: 100%;
+  cursor: grab;
+  background-color: #FEEAA1;
+  border-right: #000000 1px solid;
+  border-left: #000000 1px solid;
+}
+.card-divider3{
+  width: 100%;
+  cursor: grab;
+  background-color: #fad065;
+  border-right: #000000 1px solid;
+  border-left: #000000 1px solid;
+}
+.card-divider1:hover{
+  background-color: #6cd6cc;
+}
+.card-divider2:hover{
+  background-color: #6cd6cc;
+}
+.card-divider3:hover{
+  background-color: #6cd6cc;
+}
+
+.card::before{
+    position: absolute;
+    top: -0.2em;
+    left: -0.4em;
+    width: 1.4em;
+    height: 1.2em;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: #6cd6cc;
+    transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    -webkit-transform: rotate(-20deg);
+    z-index: 99;
+    overflow: hidden;
+    content: counter(li-counter);
+    counter-increment: li-counter;
+    
+  }
